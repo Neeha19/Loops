@@ -1,0 +1,125 @@
+Question 2:
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int n=4;
+	   for(int i=0;i<n;i++){
+	       for(int j=0;j<n;j++){
+	          
+	       System.out.print( i+1 +" ");
+	 }
+	    System.out.println( );
+	   
+	}
+}
+
+}
+
+
+
+
+o/p:
+1 1 1 1 
+2 2 2 2 
+3 3 3 3 
+4 4 4 4 
+
+
+
+
+
+Question 3:
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int n=7;
+	   for(int i=0;i<n;i++){
+	       for(int j=n;j>i;j--){
+	          
+	       System.out.print(" *");
+	 }
+	    System.out.println( );
+	   
+	}
+}
+
+}
+
+
+o/p:
+
+ * * * * * * *
+ * * * * * *
+ * * * * *
+ * * * *
+ * * *
+ * *
+ *
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int n=7;
+	   for (int i=n; i>= 1; i--)
+    {
+    for (int j=n; j>i;j--)
+    {
+    System.out.print(" ");
+    }
+    for (int k=1;k<=i;k++)
+    {
+    System.out.print("*");
+    }
+    System.out.println("");
+    }
+	}
+}
+
+
+o/p:
+*******
+ ******
+  *****
+   ****
+    ***
+     **
+      *
+
+
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int n=7;
+	   for(int i=0;i<n;i++){
+	       for(int j=n;j>i;j--){
+	          
+	       System.out.print("*");
+	 }
+	    System.out.println( );
+	   
+	}
+
+   for (int i=n; i>= 1; i--)
+    {
+    for (int j=n; j>i;j--)
+    {
+    System.out.print(" ");
+    }
+    for (int k=1;k<=i;k++)
+    {
+    System.out.print("*");
+    }
+    System.out.println("");
+    }
+}
+
+}
+
+
+
+
+
